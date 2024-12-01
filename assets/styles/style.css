@@ -64,7 +64,7 @@ p {
  
 nav ul {
   padding-inline: 4rem;
-  display: inline-flex;
+  display:list-item;
   gap: 2rem;
 
 }
@@ -86,12 +86,16 @@ main {
   display: flex;
   gap: 1.5rem;
 }
-
+ 
 #content {
   flex: 1;
   display: flex;
   flex-flow: column nowrap;
   gap: 1rem 2rem;
+}
+
+aside {
+  flex: 1;
 }
  
 header {
